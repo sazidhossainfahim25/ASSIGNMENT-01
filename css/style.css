@@ -282,6 +282,9 @@ text-align: center;
   text-decoration: none;
   margin-bottom: 15px;
   }
+  .early_access .eary_area div :hover{ 
+   background-color: #ff9e03;
+  }
   .early_access .eary_area div .btn_early  span img{ 
   line-height: 1;
   }
