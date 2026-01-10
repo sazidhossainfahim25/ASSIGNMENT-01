@@ -298,8 +298,16 @@ text-align: center;
      padding: 40px 8%;
      border-bottom: 1px solid #ffffff;
   }
+  .footer_area .container h2{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  .footer_area .container .icon img{
+    margin: 5px;
+  }
   .footer_area p{
     color: #FFFFFF;
+    margin-top: 10px;
     
   }
 /* === Footer Section start End=== */
