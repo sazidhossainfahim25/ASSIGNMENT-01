@@ -97,6 +97,10 @@ padding-top: 16px;
   align-items: center;
   border-radius: 4px;
 }
+.hero_area .btn_bottom :hover{
+  background:#ff9e03;
+  transform:translateY(-2px);
+}
 .hero_area .btn_bottom .btn-1 a{
 text-decoration: none;
 font-family: "Inter", sans-serif;
@@ -162,6 +166,11 @@ color: #ffffff;
   margin:0 auto 16px;
   padding-bottom: 16px;
  }
+ .card_section .card_area .box_1 span :hover{
+  color:#000000;
+  transform:translateY(-2px);
+  
+ }
  .card_section .card_area .box_1 h2{
 font-family: "Inter", sans-serif;
 font-style: Semi Bold;
@@ -183,6 +192,117 @@ line-height: 20px;
 text-align: center;
  }
 /* ===Notes Section End=== */
+/* === Second Brain Section start=== */
+  .brain_section{
+    background-color: #ffffff;
+  }
+  .brain_section .brain_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 10%;
+    gap: 10px;
+  }
+  .brain_section .brain_area .left_image img {
+    width: 600px;
+    height: 600px;
+  }
+  .brain_section .brain_area .right_area h3 {
+    font-family: "Inter", sans-serif;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #1faa59;
+    padding-bottom: 10px;
+  }
+  .brain_section .brain_area .right_area h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  }
+  .brain_section .brain_area .right_area p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .brain_section .brain_area .right_area .cheak_point {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+/* === Second Brain Section End=== */
+/* === Early Access Section start=== */
+  .early_access{
+    background-color: #FFFFFF;
+  }
+  .early_access .eary_area {
+    background: rgba(251, 251, 251, 1);
+    text-align: center;
+    padding: 120px 0px;
+  }
+  .early_access .eary_area h2 {
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+    padding-bottom: 10px;
+
+  }
+  .early_access .eary_area p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
+
+  }
+  .early_access .eary_area div .btn_early { 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: #2fb26a;
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 15px;
+  }
+  .early_access .eary_area div .btn_early  span img{ 
+  line-height: 1;
+  }
+/* === Early Access Section End=== */
+/* === Footer Section start=== */
+  .footer_area{
+    background-color: #001931;
+    text-align: center;
+    padding: 120px 0px;
+  }
+  .footer_area .container{
+    display: flex;
+    justify-content: space-between;
+     padding: 40px 8%;
+     border-bottom: 1px solid #ffffff;
+  }
+  .footer_area p{
+    color: #FFFFFF;
+    
+  }
+/* === Footer Section start End=== */
 
 
 
