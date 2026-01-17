@@ -41,13 +41,7 @@ body{
 /*=============== header end
 =============== */
 /* ===Banner Section start=== */
-.hero_area{
-  background-image: url(/assets/hero-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 120px 0;
-  text-align: center;
-}
+
 .hero_area .btn_top{
   background-color: #ffffff;
   padding: 8px 12px;
@@ -112,6 +106,13 @@ letter-spacing: 0%;
 text-align: left;
 text-transform: capitalize;
 color: #ffffff;
+}
+.hero_area{
+  background-image: url(/assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+  text-align: center;
 }
 /* ===Banner Section end=== */
 /* ====Notes Section start =====*/
